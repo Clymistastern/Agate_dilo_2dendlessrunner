@@ -766,9 +766,9 @@ GameObject:
   - component: {fileID: 1093745439}
   - component: {fileID: 1093745440}
   - component: {fileID: 1093745442}
+  - component: {fileID: 1093745443}
   - component: {fileID: 1093745441}
   - component: {fileID: 1093745444}
-  - component: {fileID: 1093745443}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -899,14 +899,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveAccel: 2
   maxSpeed: 4
-  jumpAccel: 7
-  groundRaycastDistance: 1.2
+  jumpAccel: 6.5
+  groundRaycastDistance: 1.3
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 256
   gameCamera: {fileID: 519420030}
   score: {fileID: 1447158217}
-  scoringRatio: 2
+  scoringRatio: 1
   gameOverScreen: {fileID: 158754644}
   fallPositionY: -5
 --- !u!95 &1093745442
